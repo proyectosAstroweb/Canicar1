@@ -21,33 +21,22 @@
 <body>
 
 
-
+ 
 <div class="container" style="margin:0; padding:0; height:100vh; width:100vw;">
   <div id="logoCarousel" class="carousel slide" data-ride="carousel" style="height:100vh; width:100vw; margin:0; padding:0;">
     <div class="carousel-inner" style="height:90vh; width:100vw;">
       <div class="carousel-item active" style="height:100%; position:relative;">
-    
         <img src="c2.png" class="d-block w-100 h-100" style="object-fit:cover; filter: brightness(0.5); height:100%; width:100%;">
-      
-      <div style="
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 5em;
-      text-align: center;
-      padding: 20px;
-      font-family: monospace; 
-      white-space:nowrap;   
-      overflow: hidden;     
-      border-right: 4px solid white;
-      width: 0; 
-      animation: typing 4s steps(90, end) forwards, blink-caret 0.75s step-end infinite;
-    ">
-  Coches de ocasión al mejor precio.
+        <div class="overlay-text">
+          Coches de ocasión
+         <br> </div>
+        <div class="overlay-text">
+         <br>   <br>al mejor precio.
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
       </div>
 
     </div>
@@ -107,14 +96,14 @@
   </form>
 
  
-  <div style="margin-bottom: 20px;">
+  <!-- Precio  <div style="margin-bottom: 20px;">
     <label for="minPrecio">Precio mínimo:</label>
     <input type="number" id="minPrecio" placeholder="0" style="margin-right:10px; padding: 6px;">
     <label for="maxPrecio">Precio máximo:</label>
     <input type="number" id="maxPrecio" placeholder="100000" style="margin-right:10px; padding: 6px;">
     <button onclick="filtrar()" style="background-color:#8b0000; color:white; font-size:23px;">Buscar</button>
-  </div>
-
+  </div>  -->
+  
   <!-- Filtro de kilometraje -->
   <div style="margin-bottom: 20px;">
     <label for="minKm">Kilometraje mínimo:</label>
